@@ -23,4 +23,4 @@ The solution I found was adding the following to my `settings.json` file within 
 After adding the above setting within the `settings.json` file and restarting Docker for Desktop on my Mac everything worked again.
 
 Solution found in:
-[https://github.com/docker/for-mac/issues/6073] (https://github.com/docker/for-mac/issues/6073)
+[https://github.com/docker/for-mac/issues/6073](https://github.com/docker/for-mac/issues/6073)
