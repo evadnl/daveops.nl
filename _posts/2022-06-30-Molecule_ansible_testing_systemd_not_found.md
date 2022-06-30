@@ -14,7 +14,7 @@ fatal: [instance]: FAILED! => {"changed": false, "cmd": "/usr/bin/systemctl", "m
 
 Apperently since version `4.3.0` of Docker Desktop they have switched to Cgroupv2. If the version of systemd in your containers is not `249` or above you will get the error above.
 
-The solution I found was adding the following to my `settings.json` file within `/Users/evad/Library/Group Containers/group.com.docker/`:
+The solution I found was adding the following to my `settings.json` file within `~/Library/Group Containers/group.com.docker/`:
 
 ```
 "deprecatedCgroupv1": true
